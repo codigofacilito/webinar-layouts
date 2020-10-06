@@ -1,0 +1,17 @@
+.container{
+
+}
+/* Primero uno por uno */
+/* .container div{}
+.container h1{}
+.container span{} */
+
+/* Para visualizarlos .Explicar por qué no aplica al SPAN */
+.container *{
+  background-color: red;
+  height:300px;
+  display: block; /* Primero es inline y luego inline-block */
+  width:300px;
+  margin:0;
+  vertical-align: top; /* Se agrega después para alinearlos */
+}

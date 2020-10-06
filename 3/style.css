@@ -1,0 +1,9 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.container *{
+  background-color: red;
+  width:200px;
+  height:100px;
+}

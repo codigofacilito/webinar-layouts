@@ -1,0 +1,10 @@
+.container{
+  display: flex;
+  background-color: green;
+  height:600px;
+  align-items: center; /* Eje principal */
+  flex-direction: row; /* Modificar este valor para ver el eje */
+  justify-content: center; /* Eje secundario */
+
+  /* Modificar la dirección */
+}

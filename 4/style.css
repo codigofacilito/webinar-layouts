@@ -1,0 +1,57 @@
+/* Esto al final
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.login article fieldset{
+  min-width: unset;
+}
+.login input{
+  max-width: 100%;
+}
+*/
+
+.login{
+  display: flex;
+  width:900px;
+  max-width: 100%;
+  margin:0 auto;
+  box-shadow:0px 0px 6px rgba(0,0,0,0.3);
+}
+
+.login .row{
+  display: flex;
+  gap:1em; /* Al final */
+  justify-content: flex-start;  
+}
+
+.login .row button{
+  margin:0;
+  width:auto;
+  /* flex:1; */
+}
+
+.login article{
+  flex-grow: 1; /* Esto al final */
+  
+  padding-left:80px;
+  padding-right:80px;
+}
+
+.login .sidebar{
+  background-color: grey;
+  width:200px;
+}
+
+@media screen and (max-width:600px){
+  .login{
+    flex-direction: column;
+  }
+  .login .row{
+    flex-direction: column;
+  } 
+}
